@@ -1,0 +1,10 @@
+stat,value
+전체 candidate 중 has_forward 비율,0.4692
+전체 candidate 중 has_backward 비율,0.8319
+전체 candidate 중 graph_score > 0 비율,0.5065
+target candidate 중 has_forward 비율,0.6246
+target candidate 중 has_backward 비율,0.9232
+top-10 추천 중 graph_score == 0 비율,0.1200
+전체 candidate 수 (raw),10157550
+전체 target candidate 수,35672
+top-10 슬롯 수,677170

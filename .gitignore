@@ -187,3 +187,14 @@ offline_output.json
 online_output.json
 unified_offline_output.json
 unified_online_output.json
+output_graph_stage3.json
+output_graph_stage3*.zip
+
+# Claude Code 로컬 설정
+.claude/
+
+# graph/data/README.md만 예외 추적
+# (data/ 규칙이 graph/data/도 막으므로, 디렉터리 → 전체 재ignore → README만 허용 순으로 적용)
+!graph/data/
+graph/data/*
+!graph/data/README.md
